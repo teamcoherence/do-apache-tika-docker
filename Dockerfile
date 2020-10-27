@@ -1,1 +1,1 @@
-FROM logicalspark/docker-tikaserver:1.24.1
+FROM logicalspark/docker-tikaserver:1.23
