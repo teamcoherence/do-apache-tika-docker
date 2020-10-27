@@ -1,8 +1,10 @@
 name: sample-dockerfile
+region: fra
 services:
 - dockerfile_path: Dockerfile
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-dockerfile
+    repo: teamcoherence/sample-dockerfile
+  http_port: 9998
   name: sample-dockerfile
