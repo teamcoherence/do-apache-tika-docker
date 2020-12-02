@@ -1,4 +1,4 @@
-# Getting Started #
+# Apache Tika DO apps #
 
 These steps will get this sample application running for you using DigitalOcean.
 
@@ -8,20 +8,12 @@ These steps will get this sample application running for you using DigitalOcean.
 
 * You need a DigitalOcean account. If you don't already have one, you can sign up at https://cloud.digitalocean.com/registrations/new
 
-## Forking the Sample App Source Code
-
-To use all the features of App Platform, you need to be running against your own copy of this application. To make a copy, click the Fork button above and follow the on-screen instructions. In this case, you'll be forking this repo as a starting point for your own app (see [Github documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) to learn more about forking repos.
-
-After forking the repo, you should now be viewing this README in your own github org (e.g. `https://github.com/<your-org>/sample-dockerfile`)
-
-**Note:** You can skip forking this repo and select a sample app from the app creation page, however do notice that certain features will be disabled.
-
 ## Deploying the App ##
 
 1. Visit https://cloud.digitalocean.com/apps (if you're not logged in, you may see an error message. Visit https://cloud.digitalocean.com/login directly and authenticate, then try again)
 1. Click "Launch App" or "Create App"
 1. Choose GitHub and authenticate with your GitHub credentials.
-1. Under Repository, choose this repository (e.g. `<your-org>/sample-dockerfile`)
+1. Under Repository, choose this repository (e.g. `<your-org>/do-apache-tika-docker`)
 1. On the next two screens, leave all the defaults unchanged.
 1. Click "Launch App"
 1. You should see a "Building..." progress indicator. And you can click "Deployments"→"Details" to see more details of the build.
