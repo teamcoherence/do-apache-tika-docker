@@ -1,4 +1,4 @@
-# Apache Tika DO apps #
+# Apache Tika Digtal Ocean Apps #
 
 These steps will get this sample application running for you using DigitalOcean.
 
